@@ -1,37 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="index.css">
-    <script src="index.js" defer></script>
-    <link rel="stylesheet" href="dynamic-input.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SignUp</title>
-</head>
-<body>
-    <div class="container">
-        <div id="login-box" class="Login-box brder-lne flexbox">
-            <div id="viddiv"></div>
-            <i><h1>Sign-Up</h1></i>
-            <form>
-                <div></div>
-                <input  class="inps bg-color text-style" type="email" id="inp1" placeholder="Email">
-                <div></div>
-                <input type="password" class="inps bg-color text-style" id="inp01" placeholder="New Password">
-                <div></div>
-                <input   type="password" class="inps bg-color text-style" id="inp2" placeholder="Confirm Password">
-            </form>
-            <div class="signuplink">
-                <a href="file:///C:/Users/madhu/OneDrive/Desktop/homepageex/.vscode/Loginpage/Loginpage.html">Already have an account? Login!</a>
-            </div>
-            <div class="center">
-                <div id="no"></div>
-                <input type="submit" onclick="btn()"  id="btn" class="btn bg-brdr text-dec">
-            </div>
-        </div>
-    </div>
-</body>
-</html>
 
 // Function to prevent the context menu from appearing
 /*function preventContextMenu(event) {
