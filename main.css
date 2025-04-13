@@ -1,0 +1,42 @@
+body {
+    background: linear-gradient(to right, black, rgb(17, 17, 17));
+    font-family: "consolas", sans-serif;
+}
+#container h1 {
+    color: white;
+}
+#container {
+    text-align: center;
+}
+#Gyatt {
+    background: linear-gradient(to right, black, gray);
+    border: black 2px solid;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    font-family: 'consolas', sans-serif;
+    color: burlywood;
+}
+#Gyatt:hover {
+    background: linear-gradient(to right, gray, black);
+    border: black 2px solid;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    font-family: 'consolas', sans-serif;
+    color: burlywood;
+}
+#container h2 {
+    color: white;
+}
+#container p {
+    color: white;
+    
+}
+#wer {
+    display: flex;
+    align-items: center; /* optional: aligns them vertically */
+    justify-content: center; /* optional: centers them horizontally */
+    gap: 10px; /* optional: spacing between h2 and p */
+  }
+  
